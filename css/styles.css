@@ -1,0 +1,89 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  /*background-color: #61122f;*/
+  /*font-family: 'Oxygen', sans-serif;*/
+}
+
+#main-content {
+  padding: auto;
+  margin: auto;
+  width: 95%;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#main-content hr{
+  width: 70%;
+}
+
+#header-nav {
+  background-color: #666666;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+ }
+
+.navbar-brand h1 {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10;
+  line-height: .75;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+#omenu {
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#main-content {
+  color: #000000;
+  background-color: #999999;
+
+}
+
+.menu-item-tile hr {
+  width: 80%;
+}
+
+.navbar-header {
+  margin-bottom: 15px;	
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#collapsable-nav { /* Collapsed nav menu text */
+  text-align: center;
+  margin-bottom: 0px;
+  border: none;
+}
+#collapsable-nav a { /* Collapsed nav menu glyph */
+  font-size: 1.5em;
+  color: black;
+  margin-right: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
