@@ -1,24 +1,11 @@
 body {
   font-size: 16px;
   color: #fff;
-  /*background-color: #61122f;*/
-  /*font-family: 'Oxygen', sans-serif;*/
-}
-
-#main-content {
-  padding: auto;
-  margin: auto;
-  width: 95%;
 }
 
 .container {
   margin-left: 10px;
   margin-right: 10px;
-}
-
-
-#main-content hr{
-  width: 70%;
 }
 
 #header-nav {
@@ -48,13 +35,20 @@ body {
 
 #omenu {
   color: #000000;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, solid;
 }
 
 #main-content {
   color: #000000;
-  background-color: #999999;
+  
+  padding: auto;
+  margin: auto;
+  width: 95%;
+}
 
+#chicken, #beef, #sushi {
+  padding: 20px;
+  background-color: #999999;
 }
 
 .menu-item-tile hr {
@@ -87,3 +81,4 @@ body {
   background-color: white;
   border: 1px solid black;
 }
+
